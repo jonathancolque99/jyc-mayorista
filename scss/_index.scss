@@ -1,0 +1,52 @@
+
+.textoarribaimagen {
+    text-align: center;
+}
+
+.productos {background-color: dimgray;}
+
+.imagenes {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    transition: all 2s; /* ACA APLIQUE TRANSITION*/
+}
+
+/*ACA AGREGO HOVER*/
+
+.imagenes__uno:hover {
+    width: 450px;
+    height: 450px;
+}
+
+.imagenes__dos:hover {
+    width: 450px;
+    height: 450px;
+}
+
+.imagenes__tres:hover {
+    width: 450px;
+    height: 450px;
+}
+
+.imagenes__cuatro:hover {
+    width: 450px;
+    height: 450px;
+}
+
+
+.imagenes div img {
+    width: 100%;
+}
+
+.productos__textoabajoimagen {
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+}
+

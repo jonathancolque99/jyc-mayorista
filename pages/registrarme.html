@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="podrás registrarte para ver el catalogo actualizado y recibir mejores ofertas de todos nuestros productos">
+    <meta name="keywords" content="registrarme, registrar, catalogo, ofertas, nombre, apellido, email, talle">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>JyC Mayorista-registrarme</title>
+</head>
+<body>
+    <header>
+        <img src="../images/jyc.jpg" alt="jyc logo"> 
+        <h1>JyC Mayorista</h1>
+        <nav>
+            <ul class="navegacion">
+                <li><a href="../index.html">inicio</a></li>
+                <li><a href="registrarme.html">registrarme</a></li>
+                <li><a href="comocomprar.html">como comprar</a></li>
+                <li><a href="información.html">información</a></li>
+                <li><a href="contactos.html">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>CREAR UNA CUENTA</h2>
+        <form>
+            <div>
+                <label for="nombre">nombre:</label>
+                <input required id="nombre" type="text" 
+                placeholder="escribe tu nombre"> 
+            </div>
+            <br>
+            <div>
+               <label for="apellido">apellido:</label>
+               <input required id="apellido" type="password" 
+               placeholder="escribe tu apellido">
+            </div>
+            <br>
+            <div>
+                <label for="email">email:</label>
+                <input required id="email" type="email" placeholder="escribe tu email">
+            </div>
+            <br>
+            <div>
+                <label for="talles">selecciones su talle</label>
+                <select name="talles">
+                    <option value="default">talle</option>
+                    <option value="uno">S</option>
+                    <option value="uno">M</option>
+                    <option value="uno">L</option>
+                    <option value="uno">XL</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="">acepto los terminos y condiciones</label>
+                <input type="checkbox" value="borrar">
+            </div>
+            <br>
+            <div>
+            <input type="reset" value="borrar">
+            <input type="submit">
+            </div>  
+        </form>
+    </section>
+    <br>
+    <section class="productos">
+        <p class="textoabajoimagen">
+            JYC MAYORISTA
+        </p>
+    </section>
+    <br>
+    <footer>
+        <p>CONTACTANOS</p>
+        <div class="IconosTexto">
+            <div class="iconos">
+                <img src="../images/whatsapp.png" alt="whatsapp" width="20px" class="whatsapp">
+                <img src="../images/instagram.png" alt="instagram" width="20px" class="instagram">
+                <img src="../images/facebook.png" alt="facebook" width="20px" class="facebook">
+                <img src="../images/gorjeo.png" alt="twitter" width="20px" class="twitter">
+            </div>
+            <div class="textoIconos">
+                <p>2664-243523</p>
+                <p>@JyCmayorista</p>
+                <p>JyCmayorista</p>
+                <p>JyCmayorista</p>
+            </div>
+        </div>
+        <div class="pieDePagina"> 
+            <p>Pagina web creada por jonathan colque | Mendoza-Argentina 2020</p>
+        </div>
+    </footer>
+</body>
+</html>

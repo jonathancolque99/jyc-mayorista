@@ -1,0 +1,146 @@
+@import url ('https://fonts.googleapis.com/css2? family = Rampart + One & display = swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62,5%; /* por defecto es 100%, 62,5% cambia la base de 16px a 10px */
+    font-family: 'Rampart One', cursive;
+}
+
+header {
+    background-image: url("https://image.freepik.com/foto-gratis/muro-hormigon-gris_53876-88973.jpg");
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 15px 0px;
+    align-items: center;
+}
+
+.navegacion li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 1rem;
+}
+.navegacion li a {
+    text-decoration: none;
+    
+    font-size: 1.2rem;
+    
+}
+
+header img {
+    width: 50px;
+}
+.textoarribaimagen {
+    text-align: center;
+}
+
+.productos {background-color: dimgray;}
+
+.imagenes {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    transition: all 2s; /* ACA APLIQUE TRANSITION*/
+}
+
+/*ACA AGREGO HOVER*/
+
+.foto_uno:hover {
+    width: 450px;
+    height: 450px;
+}
+
+.foto_dos:hover {
+    width: 450px;
+    height: 450px;
+}
+
+.foto_tres:hover {
+    width: 450px;
+    height: 450px;
+}
+
+.foto_cuatro:hover {
+    width: 450px;
+    height: 450px;
+}
+
+
+.imagenes div img {
+    width: 100%;
+}
+
+.textoabajoimagen {
+    text-align: center;
+}
+
+
+h1 { 
+    font-size: 200%;
+}
+
+p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    margin-right: 1rem;
+}
+
+.textoIconos {
+    display: flex;
+    flex-direction: column;
+}
+
+.IconosTexto {
+    display: flex;
+}
+
+.whatsapp {
+    margin-top: px;
+}
+.instagram {
+    margin-top: 13px;
+}
+.facebook {
+    margin-top: 12px;
+}
+.twitter {
+    margin-top: 11px;
+}
+
+.pieDePagina {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 780px) {
+
+.imagenes {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .imagenes {
+        display: grid;
+        padding: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
